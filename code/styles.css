@@ -1,0 +1,113 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f9fc;
+    color: #2c3e50;
+}
+
+header {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    max-height: px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 5px solid #1abc9c;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #5376d5;
+}
+
+p, li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #0654ca;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #0e77e0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    p, li, th, td {
+        font-size: 1em;
+    }
+}

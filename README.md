@@ -51,3 +51,4 @@ app.js — JavaScript interactivity (dynamic content & UI features)
 GitHub Copilot — AI-assisted coding support
 
 Git + GitHub — Collaboration, version control, and CI integration
+

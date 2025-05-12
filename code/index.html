@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>What is an LLM?</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header>
+        <img src="v2a_bannerllm.png" alt="LLM Banner" class="banner"/>
+        <h1>What is an LLM?</h1>
+    </header>
+
+    <main class="container">
+
+        <section id="explanation">
+            <h2>Basic Explanation</h2>
+            <p>Large Language Models (LLMs) are deep learning models trained on massive text datasets to generate human-like text.</p>
+            <ul>
+                <li>Chatbots and virtual assistants</li>
+                <li>Content generation</li>
+                <li>Code completion</li>
+                <li>Language translation</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>Comparison of Models</h2>
+            <button onclick="toggleTable()">Show/Hide Table</button>
+            <table id="model-table">
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>Creator</th>
+                        <th>Key Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GPT-4</td>
+                        <td>OpenAI</td>
+                        <td>Multimodal, very fluent</td>
+                    </tr>
+                    <tr>
+                        <td>Claude</td>
+                        <td>Anthropic</td>
+                        <td>Safety-focused</td>
+                    </tr>
+                    <tr>
+                        <td>Gemini</td>
+                        <td>Google DeepMind</td>
+                        <td>Multitask reasoning</td>
+                    </tr>
+                    <tr>
+                        <td>LLaMA</td>
+                        <td>Meta</td>
+                        <td>Open-source focus</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="platforms">
+            <h2>Useful Platforms</h2>
+            <ul>
+                <li><a href="https://openai.com" target="_blank">OpenAI</a></li>
+                <li><a href="https://poe.com" target="_blank">Poe</a></li>
+                <li><a href="https://huggingface.co" target="_blank">Hugging Face</a></li>
+            </ul>
+        </section>
+
+        <section id="ethics">
+            <h2>Ethical Risks</h2>
+            <p>LLMs can pose several ethical risks including:</p>
+            <ul>
+                <li>Misinformation</li>
+                <li>Bias</li>
+                <li>Privacy concerns</li>
+            </ul>
+        </section>
+
+        <section id="fun">
+            <h2>Fun Fact</h2>
+            <button onclick="showFunFact()">Click me for a fun fact!</button>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
